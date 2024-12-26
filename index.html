@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scroll Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="gallery-wrap">
+        <i class="fa-solid fa-backward" style="color: #FFD43B;" id="backbtn"></i>
+    <div class="gallery" >
+        <div>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTO1tgM6ZGD1KvAVSJ6_rHEuG3mxpt0hb5cWmQ6swQ5HQn2wjzgW-7YHT6TmuCSpZG_"></span>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://cdn.britannica.com/06/152206-050-72BD5CAC/twin-towers-Church-of-Our-Lady-Munich.jpg"></span>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRmyLL_wG-LJz0A8v2X-xcSd0OZTUsZ82EZ8OqyChu4ObfTjR0ieF2NdFC7MUy9rw1c"></span>
+        </div>
+        <div>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcR0SzE83OXfgbCFhho2mOdiLqqSQykiyke0vSeG46ptFJIdocPpLAZK_1NIsybjIkPs"></span>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSyTAt7g5IdnWX9KqVwcIXVTjigL10B67PKANNUJZsZTkBDuQY06nQK1UpMlgFGzR0Q"></span>
+            <span><img onmouseover="playAudio()" onmouseout="pauseAudio()" src="https://c4.wallpaperflare.com/wallpaper/337/47/781/2048x1365-px-city-street-traffic-urban-abstract-minimalistic-hd-art-wallpaper-preview.jpg"></span>
+        </div>
+    </div>
+    <i class="fa-solid fa-forward" style="color: #FFD43B;" id="nextbtn"></i>
+ </div>
+ 
+ <audio id="aud">
+  <source src="Money_Heist_bgm_-_Season_3_Episode_8_Climax(256k).mp3"  type="audio/mpeg">
+ </audio>
+
+
+ <script src="index.js"></script>
+    
+</body>
+</html>
